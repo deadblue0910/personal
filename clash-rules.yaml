@@ -38,7 +38,7 @@ proxy-groups:
   - name: PROXY
     type: select
     url: http://www.gstatic.com/generate_204
-    interval: 300 间隔：300
+    interval: 300
     use:
       - wd
       - ikuuu
@@ -47,7 +47,7 @@ proxy-groups:
   - name: Japan
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 300 间隔：300
+    interval: 300
     use:
       - wdj
 
