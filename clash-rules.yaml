@@ -19,7 +19,7 @@ proxy-providers:
   wd:
     type: http
     path: ./profiles/wd.yaml
-    url: https://fuqing.ch/subscribe/gnqqbe-oyrkoc-z
+    url: 
     interval: 3600
     health-check:
       enable: true
@@ -28,7 +28,7 @@ proxy-providers:
   ikuuu:
     type: http
     path: ./profiles/ikuuu.yaml
-    url: https://gx7rs.no-mad-world.club/link/RXrueCK3wJa3piEf?clash=3
+    url: 
     interval: 3600
     health-check:
       enable: true
