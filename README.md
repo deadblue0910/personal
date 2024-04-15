@@ -1,6 +1,6 @@
 emby破解
 ```
-docker exec emby /bin/sh -c 'cd /system && wget -O - https://raw.githubusercontent.com/deadblue0910/personal/main/emby.sh | sh'
+wget -O emby.sh --no-check-certificate https://raw.githubusercontent.com/deadblue0910/personal/main/emby.sh && bash emby.sh
 ```
 
 Emby.CustomCssJS
