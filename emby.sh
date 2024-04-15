@@ -14,7 +14,7 @@ wget --no-check-certificate https://service.hexsen.com/emby/crack49/dashboard-ui
 docker cp ./embypremiere.js $name:/system/dashboard-ui/embypremiere/
 docker exec -it $name chmod 644 /system/dashboard-ui/embypremiere/embypremiere.js
 echo "web 开心完成..."
-wget --no-check-certificate https://service.hexsen.com/emby/crack49/
+wget --no-check-certificate https://service.hexsen.com/emby/crack49/Emby.Server.Implementations.dll
 docker cp ./Emby.Server.Implementations.dll $name:/system/
 echo "Implementations 替换认证..."
 docker exec -it $name chmod 644 Emby.Web.dll Emby.Server.Implementations.dll MediaBrowser.Model.dll Emby.Notifications.dll
