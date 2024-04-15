@@ -11,7 +11,7 @@ wget --no-check-certificate https://service.hexsen.com/emby/crack49/MediaBrowser
 docker cp ./MediaBrowser.Model.dll $name:/system/
 echo "核心开心完成..."lient/
 wget --no-check-certificate https://service.hexsen.com/emby/crack49/dashboard-ui/embypremiere/embypremiere.js
-docker cp ./Emby.Web.dll $name:/system/dashboard-ui/embypremiere/
+docker cp ./embypremiere.js $name:/system/dashboard-ui/embypremiere/
 docker exec -it $name chmod 644 /system/dashboard-ui/embypremiere/embypremiere.js
 echo "web 开心完成..."
 wget --no-check-certificate https://service.hexsen.com/emby/crack49/
