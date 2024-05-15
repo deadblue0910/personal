@@ -3,8 +3,6 @@
 read -p "请输入 Emby 容器名称:" name
 
 #破解premiere
-wget --no-check-certificate https://service.hexsen.com/emby/crack49/Emby.Notifications.dll
-docker cp ./Emby.Notifications.dll $name:/system/
 wget --no-check-certificate https://service.hexsen.com/emby/crack49/Emby.Web.dll
 docker cp ./Emby.Web.dll $name:/system/
 wget --no-check-certificate https://service.hexsen.com/emby/crack49/MediaBrowser.Model.dll
@@ -18,7 +16,6 @@ wget --no-check-certificate https://service.hexsen.com/emby/crack49/Emby.Server.
 docker cp ./Emby.Server.Implementations.dll $name:/system/
 echo "Implementations 替换认证..."
 docker exec -it $name chmod 644 "/system/Emby.Web.dll" "/system/Emby.Server.Implementations.dll" "/system/MediaBrowser.Model.dll" "/system/Emby.Notifications.dll"
-rm -f Emby.Notifications.dll
 rm -f Emby.Web.dll
 rm -f MediaBrowser.Model.dll
 rm -f embypremiere.js
