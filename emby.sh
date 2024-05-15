@@ -15,7 +15,7 @@ echo "web 开心完成..."
 wget --no-check-certificate https://service.hexsen.com/emby/crack49/Emby.Server.Implementations.dll
 docker cp ./Emby.Server.Implementations.dll $name:/system/
 echo "Implementations 替换认证..."
-docker exec -it $name chmod 644 "/system/Emby.Web.dll" "/system/Emby.Server.Implementations.dll" "/system/MediaBrowser.Model.dll" "/system/Emby.Notifications.dll"
+docker exec -it $name chmod 644 "/system/Emby.Web.dll" "/system/Emby.Server.Implementations.dll" "/system/MediaBrowser.Model.dll"
 rm -f Emby.Web.dll
 rm -f MediaBrowser.Model.dll
 rm -f embypremiere.js
