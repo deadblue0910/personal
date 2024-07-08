@@ -1,4 +1,18 @@
 {
-  "picBed": {},
+  "picBed": {
+    "smms-A": {
+      "alias": "smms-A",
+      "token": "6GTaOlTqDNFawo3XLR0DnjoxlTtb3ZZe",
+      "paging": true,
+      "picBedName": "smms"
+    },
+    "imgur-A": {
+      "alias": "imgur-A",
+      "imgurUserName": "deadblue0910",
+      "accessToken": "bfae6e4c8992ba09d044c72e1672bb30078657a2",
+      "proxy": "http://127.0.0.1:7890",
+      "picBedName": "imgur"
+    }
+  },
   "settings": {}
 }
