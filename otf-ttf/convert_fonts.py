@@ -20,7 +20,7 @@ def convert_otf_to_ttf(file_path):
         # Check if the output file exists
         if os.path.exists(output_file):
             print(f"Output file exists: {output_file}")
-            destination_dir = r"E:\Otaku\字体\超级字体整合包 XZ\完整包\[otf-ttf]"
+            destination_dir = r"E:\Otaku\字体\超级字体整合包 XZ\完整包\[otf-ttf]"  #转换输出位置
             shutil.move(output_file, os.path.join(destination_dir, os.path.basename(output_file)))
             print(f"Successfully moved {output_file} to {destination_dir}")
             return True
