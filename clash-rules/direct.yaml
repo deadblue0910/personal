@@ -25,3 +25,8 @@ payload:
   - DOMAIN,cf.090227.xyz
   - DOMAIN-SUFFIX,test-ipv6.com 
   - DOMAIN,dcg.microsoft.com
+  - DOMAIN-SUFFIX,2026copy.com
+  - DOMAIN-SUFFIX,2025copy.com
+  - DOMAIN-SUFFIX,copy2000.site
+  - DOMAIN-SUFFIX,copy20
+  
