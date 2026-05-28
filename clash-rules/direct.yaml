@@ -1,7 +1,7 @@
 payload:
   - DOMAIN-SUFFIX,poipion.top,v6-prefer
-  - DOMAIN-SUFFIX,bgm.tv
-  - DOMAIN-SUFFIX,bangumi.tv
+  #- DOMAIN-SUFFIX,bgm.tv
+  #- DOMAIN-SUFFIX,bangumi.tv
   - DOMAIN-SUFFIX,hdfans.org
   - DOMAIN-SUFFIX,hddolby.com
   - DOMAIN-SUFFIX,rousi.pro
